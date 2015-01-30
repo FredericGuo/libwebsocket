@@ -1,0 +1,12 @@
+E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/CMakeFiles/ALL_BUILD.dir
+E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/CMakeFiles/ZERO_CHECK.dir
+E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/CMakeFiles/ZLIB.dir
+E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/CMakeFiles/dist.dir
+E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/CMakeFiles/test-client.dir
+E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/CMakeFiles/test-echo.dir
+E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/CMakeFiles/test-fraggle.dir
+E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/CMakeFiles/test-ping.dir
+E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/CMakeFiles/test-server.dir
+E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/CMakeFiles/test-server-extpoll.dir
+E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/CMakeFiles/websockets.dir
+E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/CMakeFiles/websockets_shared.dir

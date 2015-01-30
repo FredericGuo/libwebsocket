@@ -1,75 +1,38 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-# Windows
-# =========================
-
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
+#Ignore build files
+Makefile
+config.h
+config.log
+config.status
+libtool
+stamp-h1
+output/
+win32port/ipch/
+win32port/Debug*/
+win32port/Release*/
+win32port/server/Debug*/
+win32port/server/Release*/
+win32port/client/Debug*/
+win32port/client/Release*/
+win32port/libwebsocketswin32/Debug*/
+win32port/libwebsocketswin32/Release*/
+win32port/zlib/Debug*/
+win32port/zlib/Release*/
+*.vcxproj.user
+*.opensdf
+*.sdf
+*.suo
+*.su
+*.m4
+missing
+depcomp
+install-sh
+configure
+compile
+config.guess
+*~
+*.orig
+autom4te.cache/
+ltmain.sh
+config.sub
+ar-lib
+libwebsockets.pc

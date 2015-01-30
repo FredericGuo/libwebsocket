@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="test-server"
+	ProjectGUID="{B7EA884A-8EF0-4AA6-8721-FB83D83DE005}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="test-server.dir\Debug"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\lib;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\win32helpers;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\zlib;"
+				AssemblerListingLocation="Debug/"
+				BasicRuntimeChecks="3"
+				CompileAs="1"
+				DebugInformationFormat="3"
+				ExceptionHandling="0"
+				InlineFunctionExpansion="0"
+				Optimization="0"
+				RuntimeLibrary="3"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;&quot;INSTALL_DATADIR=\&quot;C:/Program Files (x86)/libwebsockets/share\&quot;&quot;;CMAKE_BUILD;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\lib;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\win32helpers;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\zlib;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;&quot;INSTALL_DATADIR=\&quot;C:/Program Files (x86)/libwebsockets/share\&quot;&quot;;CMAKE_BUILD;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\lib;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\win32helpers;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\zlib;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"
+CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -E make_directory E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/lib/Debug&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"/>
+			<Tool
+				Name="VCPostBuildEventTool"
+CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -E make_directory E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/bin/Debug/../share/libwebsockets-test-server&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -E copy E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/test-server/favicon.ico E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/bin/Debug/../share/libwebsockets-test-server&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -E copy E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/test-server/leaf.jpg E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/bin/Debug/../share/libwebsockets-test-server&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -E copy E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/test-server/libwebsockets.org-logo.png E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/bin/Debug/../share/libwebsockets-test-server&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -E copy E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/test-server/test.html E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/bin/Debug/../share/libwebsockets-test-server&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /machine:X86 /debug"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib lib\Debug\websockets_static.lib lib\$(OutDir)\ZLIB.lib ws2_32.lib "
+				OutputFile="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\bin\Debug\libwebsockets-test-server.exe"
+				Version="0.0"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories=""
+				ProgramDatabaseFile="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\bin\Debug/libwebsockets-test-server.pdb"
+				GenerateDebugInformation="TRUE"
+				SubSystem="1"
+				ImportLibrary="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\lib\Debug\libwebsockets-test-server.lib"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="test-server.dir\Release"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\lib;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\win32helpers;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\zlib;"
+				AssemblerListingLocation="Release/"
+				CompileAs="1"
+				ExceptionHandling="0"
+				InlineFunctionExpansion="2"
+				Optimization="2"
+				RuntimeLibrary="2"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;&quot;INSTALL_DATADIR=\&quot;C:/Program Files (x86)/libwebsockets/share\&quot;&quot;;CMAKE_BUILD;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\&quot;Release\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\lib;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\win32helpers;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\zlib;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;&quot;INSTALL_DATADIR=\&quot;C:/Program Files (x86)/libwebsockets/share\&quot;&quot;;CMAKE_BUILD;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\lib;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\win32helpers;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\zlib;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"
+CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -E make_directory E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/lib/Release&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"/>
+			<Tool
+				Name="VCPostBuildEventTool"
+CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -E make_directory E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/bin/Release/../share/libwebsockets-test-server&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -E copy E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/test-server/favicon.ico E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/bin/Release/../share/libwebsockets-test-server&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -E copy E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/test-server/leaf.jpg E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/bin/Release/../share/libwebsockets-test-server&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -E copy E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/test-server/libwebsockets.org-logo.png E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/bin/Release/../share/libwebsockets-test-server&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -E copy E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/test-server/test.html E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/bin/Release/../share/libwebsockets-test-server&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /machine:X86"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib lib\Release\websockets_static.lib lib\$(OutDir)\ZLIB.lib ws2_32.lib "
+				OutputFile="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\bin\Release\libwebsockets-test-server.exe"
+				Version="0.0"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories=""
+				ProgramDatabaseFile="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\bin\Release/libwebsockets-test-server.pdb"
+				SubSystem="1"
+				ImportLibrary="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\lib\Release\libwebsockets-test-server.lib"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="MinSizeRel"
+			IntermediateDirectory="test-server.dir\MinSizeRel"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\lib;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\win32helpers;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\zlib;"
+				AssemblerListingLocation="MinSizeRel/"
+				CompileAs="1"
+				ExceptionHandling="0"
+				InlineFunctionExpansion="1"
+				Optimization="1"
+				RuntimeLibrary="2"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;&quot;INSTALL_DATADIR=\&quot;C:/Program Files (x86)/libwebsockets/share\&quot;&quot;;CMAKE_BUILD;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\lib;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\win32helpers;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\zlib;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;&quot;INSTALL_DATADIR=\&quot;C:/Program Files (x86)/libwebsockets/share\&quot;&quot;;CMAKE_BUILD;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\lib;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\win32helpers;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\zlib;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"
+CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -E make_directory E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/lib/MinSizeRel&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"/>
+			<Tool
+				Name="VCPostBuildEventTool"
+CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -E make_directory E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/bin/MinSizeRel/../share/libwebsockets-test-server&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -E copy E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/test-server/favicon.ico E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/bin/MinSizeRel/../share/libwebsockets-test-server&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -E copy E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/test-server/leaf.jpg E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/bin/MinSizeRel/../share/libwebsockets-test-server&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -E copy E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/test-server/libwebsockets.org-logo.png E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/bin/MinSizeRel/../share/libwebsockets-test-server&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -E copy E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/test-server/test.html E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/bin/MinSizeRel/../share/libwebsockets-test-server&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /machine:X86"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib lib\MinSizeRel\websockets_static.lib lib\$(OutDir)\ZLIB.lib ws2_32.lib "
+				OutputFile="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\bin\MinSizeRel\libwebsockets-test-server.exe"
+				Version="0.0"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories=""
+				ProgramDatabaseFile="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\bin\MinSizeRel/libwebsockets-test-server.pdb"
+				SubSystem="1"
+				ImportLibrary="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\lib\MinSizeRel\libwebsockets-test-server.lib"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="RelWithDebInfo"
+			IntermediateDirectory="test-server.dir\RelWithDebInfo"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\lib;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\win32helpers;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\zlib;"
+				AssemblerListingLocation="RelWithDebInfo/"
+				CompileAs="1"
+				DebugInformationFormat="3"
+				ExceptionHandling="0"
+				InlineFunctionExpansion="1"
+				Optimization="2"
+				RuntimeLibrary="2"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;&quot;INSTALL_DATADIR=\&quot;C:/Program Files (x86)/libwebsockets/share\&quot;&quot;;CMAKE_BUILD;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\lib;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\win32helpers;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\zlib;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;&quot;INSTALL_DATADIR=\&quot;C:/Program Files (x86)/libwebsockets/share\&quot;&quot;;CMAKE_BUILD;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\lib;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\win32helpers;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\zlib;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"
+CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -E make_directory E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/lib/RelWithDebInfo&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"/>
+			<Tool
+				Name="VCPostBuildEventTool"
+CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -E make_directory E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/bin/RelWithDebInfo/../share/libwebsockets-test-server&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -E copy E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/test-server/favicon.ico E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/bin/RelWithDebInfo/../share/libwebsockets-test-server&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -E copy E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/test-server/leaf.jpg E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/bin/RelWithDebInfo/../share/libwebsockets-test-server&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -E copy E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/test-server/libwebsockets.org-logo.png E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/bin/RelWithDebInfo/../share/libwebsockets-test-server&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -E copy E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/test-server/test.html E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/bin/RelWithDebInfo/../share/libwebsockets-test-server&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /machine:X86 /debug"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib lib\RelWithDebInfo\websockets_static.lib lib\$(OutDir)\ZLIB.lib ws2_32.lib "
+				OutputFile="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\bin\RelWithDebInfo\libwebsockets-test-server.exe"
+				Version="0.0"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories=""
+				ProgramDatabaseFile="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\bin\RelWithDebInfo/libwebsockets-test-server.pdb"
+				GenerateDebugInformation="TRUE"
+				SubSystem="1"
+				ImportLibrary="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\lib\RelWithDebInfo\libwebsockets-test-server.lib"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeLists.txt">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HE:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30 -BE:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30 --check-stamp-file E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeLists.txt;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeVS8FindMake.cmake&quot;;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\2.8.12.1\CMakeSystem.cmake;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\2.8.12.1\CMakeCCompiler.cmake;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\2.8.12.1\CMakeCXXCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\2.8.12.1\CMakeRCCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\cmake\FindGit.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCSourceCompiles.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckLibraryExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckTypeSize.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeConfigurableFile.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckTypeSize.c.in&quot;;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\CheckTypeSize\PID_T_SIZE.c;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckTypeSize.c.in&quot;;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\CheckTypeSize\SIZE_T_SIZE.c;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\config.h.cmake;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\cmake\LibwebsocketsConfig.cmake.in;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\cmake\LibwebsocketsConfig.cmake.in;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\cmake\LibwebsocketsConfigVersion.cmake.in;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\cmake\UseRPMTools.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CPack.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CPackComponent.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Templates\CPackConfig.cmake.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Templates\CPackConfig.cmake.in&quot;;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeLists.txt;"
+					Outputs="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HE:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30 -BE:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30 --check-stamp-file E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeLists.txt;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeVS8FindMake.cmake&quot;;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\2.8.12.1\CMakeSystem.cmake;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\2.8.12.1\CMakeCCompiler.cmake;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\2.8.12.1\CMakeCXXCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\2.8.12.1\CMakeRCCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\cmake\FindGit.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCSourceCompiles.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckLibraryExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckTypeSize.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeConfigurableFile.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckTypeSize.c.in&quot;;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\CheckTypeSize\PID_T_SIZE.c;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckTypeSize.c.in&quot;;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\CheckTypeSize\SIZE_T_SIZE.c;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\config.h.cmake;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\cmake\LibwebsocketsConfig.cmake.in;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\cmake\LibwebsocketsConfig.cmake.in;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\cmake\LibwebsocketsConfigVersion.cmake.in;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\cmake\UseRPMTools.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CPack.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CPackComponent.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Templates\CPackConfig.cmake.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Templates\CPackConfig.cmake.in&quot;;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeLists.txt;"
+					Outputs="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HE:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30 -BE:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30 --check-stamp-file E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeLists.txt;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeVS8FindMake.cmake&quot;;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\2.8.12.1\CMakeSystem.cmake;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\2.8.12.1\CMakeCCompiler.cmake;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\2.8.12.1\CMakeCXXCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\2.8.12.1\CMakeRCCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\cmake\FindGit.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCSourceCompiles.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckLibraryExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckTypeSize.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeConfigurableFile.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckTypeSize.c.in&quot;;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\CheckTypeSize\PID_T_SIZE.c;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckTypeSize.c.in&quot;;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\CheckTypeSize\SIZE_T_SIZE.c;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\config.h.cmake;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\cmake\LibwebsocketsConfig.cmake.in;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\cmake\LibwebsocketsConfig.cmake.in;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\cmake\LibwebsocketsConfigVersion.cmake.in;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\cmake\UseRPMTools.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CPack.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CPackComponent.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Templates\CPackConfig.cmake.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Templates\CPackConfig.cmake.in&quot;;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeLists.txt;"
+					Outputs="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HE:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30 -BE:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30 --check-stamp-file E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeLists.txt;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeVS8FindMake.cmake&quot;;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\2.8.12.1\CMakeSystem.cmake;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\2.8.12.1\CMakeCCompiler.cmake;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\2.8.12.1\CMakeCXXCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\2.8.12.1\CMakeRCCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\cmake\FindGit.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCSourceCompiles.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckLibraryExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckTypeSize.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeConfigurableFile.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.c.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckTypeSize.c.in&quot;;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\CheckTypeSize\PID_T_SIZE.c;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckTypeSize.c.in&quot;;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\CheckTypeSize\SIZE_T_SIZE.c;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\config.h.cmake;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\cmake\LibwebsocketsConfig.cmake.in;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\cmake\LibwebsocketsConfig.cmake.in;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\cmake\LibwebsocketsConfigVersion.cmake.in;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\cmake\UseRPMTools.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CPack.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CPackComponent.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Templates\CPackConfig.cmake.in&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Templates\CPackConfig.cmake.in&quot;;E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeLists.txt;"
+					Outputs="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+		<Filter
+			Name="Headers Private"
+			Filter="">
+			<File
+				RelativePath="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\win32helpers\getopt.h">
+			</File>
+			<File
+				RelativePath="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\win32helpers\gettimeofday.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Sources"
+			Filter="">
+			<File
+				RelativePath="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\test-server\test-server.c">
+			</File>
+			<File
+				RelativePath="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\win32helpers\getopt.c">
+			</File>
+			<File
+				RelativePath="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\win32helpers\getopt_long.c">
+			</File>
+			<File
+				RelativePath="E:\work\WebSocket\libwebsockets-1.3-chrome37-firefox30\win32port\win32helpers\gettimeofday.c">
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

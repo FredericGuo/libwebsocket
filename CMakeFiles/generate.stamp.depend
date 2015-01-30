@@ -1,0 +1,73 @@
+# CMake generation dependency list for this directory.
+E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/CMakeLists.txt
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeVS8FindMake.cmake
+E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/CMakeFiles/2.8.12.1/CMakeSystem.cmake
+E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/CMakeFiles/2.8.12.1/CMakeCCompiler.cmake
+E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/CMakeFiles/2.8.12.1/CMakeCXXCompiler.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC.cmake
+E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/CMakeFiles/2.8.12.1/CMakeRCCompiler.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCXXInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/cmake/FindGit.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckCSourceCompiles.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFiles.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckLibraryExists.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckTypeSize.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.c
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.c.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.c.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.c.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.c.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.c.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.c.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.c.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.c.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.c.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.c.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.c.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.c.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.c.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.c.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.c.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.c.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.c.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeConfigurableFile.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.c.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckTypeSize.c.in
+E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/CMakeFiles/CheckTypeSize/PID_T_SIZE.c
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckTypeSize.c.in
+E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/CMakeFiles/CheckTypeSize/SIZE_T_SIZE.c
+E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/config.h.cmake
+E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/cmake/LibwebsocketsConfig.cmake.in
+E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/cmake/LibwebsocketsConfig.cmake.in
+E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/cmake/LibwebsocketsConfigVersion.cmake.in
+E:/work/WebSocket/libwebsockets-1.3-chrome37-firefox30/cmake/UseRPMTools.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CPack.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CPackComponent.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Templates/CPackConfig.cmake.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Templates/CPackConfig.cmake.in
